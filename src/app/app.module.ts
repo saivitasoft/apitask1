@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AsideComponent } from './aside/aside.component';
 import { JsonfileComponent } from './jsonfile/jsonfile.component';
+import { DataComponent } from './data/data.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AsideComponent,
-    JsonfileComponent
+    JsonfileComponent,
+    DataComponent
   ],
   imports: [
     BrowserModule,
