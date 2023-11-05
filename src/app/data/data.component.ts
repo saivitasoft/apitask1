@@ -11,7 +11,7 @@ export class DataComponent  implements OnInit {
   constructor(private apiService: ApiService){}
 
   ngOnInit() {
-    this.apiService.getData().subscribe((res: any) => {
+    this.apiService.getDate().subscribe((res: any) => {
       this.apiData = res.data
       console.log(this.apiData);
     });
